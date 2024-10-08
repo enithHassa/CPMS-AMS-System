@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Geologica", sans-serif;
+  }
+
+
+:root {
+  --white: white;
+  --background-color: #f6f6f6;
+  --primary-color: #F8F4E1;
+  --secondary-color: #AF8F6F;
+  --accent-color: #74512D;
+  --dark-color: #543310;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: var(--background-color);
+}

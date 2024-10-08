@@ -1,0 +1,103 @@
+/* Container for the search results */
+.search-results-page {
+    background-image: url('../client_assets/cli_search_bcg.jpeg'); /* Replace with actual path to your image */
+    background-size: cover;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    min-height: 90vh; /* Ensures the background covers the whole page */
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.search-results-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color for readability */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.search-h1, .search-h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.search-p {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+.search-results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: #fff; /* Table background color */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-results-table th, 
+.search-results-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+}
+
+.search-results-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Table row hover effect */
+.search-results-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsive table for smaller screens */
+@media (max-width: 768px) {
+    .search-results-table thead {
+        display: none; /* Hide table headers on small screens */
+    }
+
+    .search-results-table tbody tr {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .search-results-table tbody tr td {
+        display: block;
+        text-align: right;
+        position: relative;
+        padding-left: 50%;
+        border-bottom: 1px solid #eee;
+    }
+
+    .search-results-table tbody tr td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #333;
+    }
+}

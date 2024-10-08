@@ -1,0 +1,46 @@
+/* Style for the cases container */
+@import url('../../components_home/common.css');
+
+.deeds-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.deeds-container h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+.error-message {
+    color: red;
+    margin-top: 20px;
+}
+
+/* Table styling */
+.deeds-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.deeds-table th, .deeds-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.deeds-table th {
+    background-color: var(--secondary-color);
+    color: #333;
+    font-weight: bold;
+}
+
+.deeds-table tr:nth-child(even) {
+    background-color: var(--primary-color);
+}
+
+.deeds-table tr:hover {
+    background-color: #f1f1f1;
+}

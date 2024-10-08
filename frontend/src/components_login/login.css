@@ -1,0 +1,75 @@
+.login-container {
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 1900px;
+    margin: 0rem auto;
+}
+
+.login-section {
+    margin-top: 4rem;
+  }
+  
+  .login-section-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .login-section-top h1 {
+    max-width: 700px !important;
+    color: var(--dark-color);
+  }
+   
+  .login-section-info {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    color: var(--dark-color);
+    margin: 1rem 1rem;
+    overflow: hidden;
+  }
+
+  .login-section-info h2 {
+    margin: 1rem 0rem;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+
+  .login-section-bottom {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .login-section-icon svg{
+    padding-top: 15px;
+    font-size: 4rem;
+    color: var(--dark-color);
+  }
+  
+  
+  @media (max-width: 800px) {    
+    .login-feature-section {
+      margin-top: 5rem !important;
+    }
+    .login-feature-section-bottom {
+      margin-top: 1rem !important;
+    } 
+  }
+
+
+@media (max-width: 800px) {
+    .login-container {
+      max-width: 95vw;
+    }
+} 

@@ -1,0 +1,85 @@
+@import url('../../components_home/common.css');
+
+/* Apply the background image to the login-page wrapper */
+.login-page {
+    background-image: url('../client_assets/cli_login_bcg.webp'); /* Replace with actual path to your image */
+    background-size: cover;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    min-height: 90vh; /* Ensures the background covers the whole page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px; /* Adjust for the header */
+    padding-bottom: 50px; /* Adjust for the footer */
+}
+
+/* Styles for the login container */
+.login-container-client {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--primary-color); /* Keep background color for readability */
+}
+
+/* Other existing styles */
+.login-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: var(--secondary-color);
+}

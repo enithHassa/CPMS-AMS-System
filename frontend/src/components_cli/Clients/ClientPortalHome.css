@@ -1,0 +1,153 @@
+/* ClientPortalHome.css */
+@import url('../../components_home/common.css');
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    background-image: image(".../assets/client/client-background.jpg");
+}
+
+h1 {
+    text-align: center;
+}
+
+.welcome-tag {
+    font-size: 20px;
+    padding-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clickable-container {
+    background-color: var(--secondary-color); 
+    color: white;
+    padding: 2rem;
+    border-radius: 40px;
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    transition: background-color 0.3s ease;
+}
+
+.clickable-container:hover {
+    background-color: var(--accent-color);
+}
+
+.clickable-container p {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.case-count-container {
+    text-align: left;
+    margin: 30px 250px;
+    font-size: 24px;
+    color: #333;
+}
+
+.case-count-container h2 {
+    font-size: 28px;
+    color: #444;
+}
+
+.deed-count-container {
+    text-align: right;
+    margin-right: 250px;
+    margin-top: -60px;
+    font-size: 24px;
+    color: #333;
+}
+
+.deed-count-container h2 {
+    font-size: 28px;
+    color: #444;
+}
+
+.deed-count-container p {
+    margin: 0;
+}
+
+.messaging-system-container {
+    margin: 50px 250px;
+}
+
+.messaging-system-container h2 {
+    font-size: 28px;
+    color: #444;
+}
+
+.messaging-box {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between; /* Push the input section to the bottom */
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    min-height: 300px; /* Set a minimum height to ensure space for messages */
+}
+
+.received-messages,
+.send-messages {
+    width: 45%;
+    text-align: center;
+}
+
+.received-messages h3,
+.send-messages h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.received-messages p,
+.send-messages p {
+    font-size: 20px;
+    color: #666;
+}
+
+.message-item {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.sent {
+    background-color: #e0ffe0; /* Light green for sent messages */
+    text-align: right;
+}
+
+.received {
+    background-color: #f0f0f0; /* Light gray for received messages */
+    text-align: left;
+}
+
+.message-list {
+    flex-grow: 1; /* Allow message list to take available space */
+    overflow-y: auto; /* Enable scrolling if the messages overflow */
+    margin-bottom: 15px; /* Add space between messages and input */
+}
+
+.send-message-section {
+    display: flex;
+    justify-content: space-between; /* Ensure input and button are next to each other */
+    align-items: center; /* Vertically align input and button */
+    margin-top: 15px;
+}
+
+.send-message-section input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.send-message-section button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.send-message-section button:hover {
+    background-color: #0056b3;
+}

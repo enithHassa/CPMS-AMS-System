@@ -1,0 +1,99 @@
+/* UserClients.css */
+@import url('../../components_home/common.css');
+
+.user-clients-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f8f9fa; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.user-clients-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.user-clients-title {
+    color: #333;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+}
+
+.add-client-btn {
+    background-color: var(--accent-color); 
+}
+
+.delete-client-btn {
+    background-color: #dc3545; 
+}
+
+.user-clients-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.user-clients-table thead {
+    background-color: var(--secondary-color); 
+    color: white;
+}
+
+.user-clients-table th, 
+.user-clients-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-clients-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.user-clients-table th {
+    font-weight: 700;
+}
+
+.user-clients-table td {
+    font-size: 1rem;
+}
+
+.user-clients-table tbody tr:hover {
+    background-color: #e9ecef; 
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .user-clients-container {
+        padding: 1rem;
+    }
+
+    .user-clients-table th, 
+    .user-clients-table td {
+        padding: 8px 10px;
+        font-size: 0.9rem;
+    }
+
+    .user-clients-title {
+        font-size: 1.5rem;
+    }
+}

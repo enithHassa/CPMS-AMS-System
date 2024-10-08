@@ -1,0 +1,52 @@
+/* DeleteClient.css */
+@import url('../../components_home/common.css');
+
+.delete-client-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 40px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #fff4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.delete-title {
+    text-align: center;
+    font-size: 28px;
+    color: #d9534f;
+    margin-bottom: 20px;
+}
+
+.client-details {
+    margin-bottom: 20px;
+}
+
+.client-details p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.delete-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #d9534f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.delete-button:hover {
+    background-color: #c9302c;
+}
+
+.loading {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}

@@ -1,0 +1,63 @@
+/* SuccessPage.css */
+@import url('../../components_home/common.css');
+
+.success-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f0f8ff; 
+}
+
+.success-message {
+    font-size: 2.5rem;
+    color: #28a745;
+    margin-bottom: 1rem;
+}
+
+.icon-container {
+    margin-bottom: 2rem;
+}
+
+.success-icon {
+    font-size: 3rem;
+    color: #28a745; 
+}
+
+.checkIcon {
+    margin-top: 1rem;
+}
+
+.button-container {
+    display: flex;
+    gap: 1rem; 
+}
+
+.view-button, .go-back-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-button {
+    color: white;
+    background-color: var(--accent-color); 
+}
+
+.view-button:hover {
+    background-color: var(--dark-color);
+}
+
+.go-back-button {
+    color: white;
+    background-color: #6c757d; 
+}
+
+.go-back-button:hover {
+    background-color: #5a6268; 
+}
