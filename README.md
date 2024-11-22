@@ -1,4 +1,4 @@
-# CPM-AMS-System
+# CPMS-AMS-System
 Y2S2 project
 
 **Client Portal Management System (CPMS)**
